@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-3">
+        <header class="header">
+            <nav class="navbar bg-body-tertiary">
+            <button id="boton1" class="btn btn-success">getUsers</button>
+            <button id="boton2" class="btn btn-success">algo2</button>
+            <button id="boton3" class="btn btn-success">algo3</button>
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                <input id="barra" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="enviar" class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </nav>              
+        </header>
+        <section class="main">
+            <div id="contenedor-usuarios"></div>
+        </section>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
